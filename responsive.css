@@ -1,0 +1,95 @@
+@media all and (max-width: 1100px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+
+    .topHeader .menu ul li {
+        margin: 0 10px;
+    }
+
+    .topHeader .menu ul li a {
+        color: #1c1d1d;
+    }
+
+    .topHeader .menu ul li a:hover {
+        color: #00AA13;
+    }
+
+}
+
+@media all and (max-width: 850px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .topHeader .menu {
+        display: none;
+    }
+
+    .topHeader .languag {
+        display: none;
+    }
+
+    .topHeader .toogler {
+        display: inline-block;
+        font-size: 35px;
+        float: right;
+        line-height: 80px;
+        margin-right: 10px;
+    }
+
+    .topHeader .toogler a {
+        color: #00AA13;
+    }
+
+    .sections {
+        width: 100%;
+    }
+
+    .section {
+        width: 50%;
+        /* margin: 0 auto; */
+    }
+
+}
+
+
+@media all and (max-width: 670px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .topHeader .menu ul {
+        display: none;
+    }
+
+    .topHeader .toogler {
+        display: inline-block;
+        font-size: 35px;
+        float: right;
+        line-height: 80px;
+        margin-right: 10px;
+    }
+
+    .slide {
+        padding: 15%;
+        height: 100%;
+    }
+
+    .main {
+        /* margin: 0 auto; */
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    .blanke {
+        display: none;
+    }
+
+}
